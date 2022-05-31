@@ -36,6 +36,9 @@ ul {
   align-items: center;
 }
 /* Navigation list */
+.header-nav {
+  margin-left: 93px;
+}
 .list,
 .contacts-list {
   font-weight: 500;
@@ -61,7 +64,6 @@ ul {
 }
 .list {
   display: flex;
-  margin-left: 93px;
 }
 .list-li:not(:last-child) {
   margin-right: 50px;
