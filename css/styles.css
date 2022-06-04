@@ -652,7 +652,7 @@ ul {
   font-size: 14px;
   line-height: 1.71;
 
-  color: #757575;
+  color: var(--colorTertiary);
 }
 .checkbox-icon {
   border: 2px solid #000000;
@@ -671,10 +671,9 @@ ul {
 
   text-decoration: none;
   background-image: linear-gradient(currentColor, currentColor);
-  background-position: 0% 100%;
+  background-position: 0% 90%;
   background-repeat: no-repeat;
   background-size: 100% 1px;
-  transition: background-size 0.3s;
 }
 .checkbox-terms:visited {
   color: var(--colorSecondary);
@@ -699,6 +698,12 @@ ul {
   letter-spacing: 0.06em;
 
   color: var(--btnColorPrimary);
+
+  transform: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.form-button:hover,
+.form-button:focus {
+  background-color: var(--btnBgColorHov);
 }
 /* Portfolio - Categories */
 .list-categories {
