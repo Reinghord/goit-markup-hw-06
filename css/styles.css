@@ -802,6 +802,7 @@ ul {
 }
 .projects-title {
   margin-top: 20px;
+  margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
