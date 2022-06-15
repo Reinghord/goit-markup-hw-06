@@ -582,8 +582,7 @@ ul {
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
 
-  min-height: 581px;
-  min-width: 528px;
+  width: 528px;
   padding: 40px;
 
   background-color: var(--bgColorPrimary);
