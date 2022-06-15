@@ -518,6 +518,15 @@ ul {
   padding: 15px 0px 15px 16px;
   width: 358px;
 }
+.footer-input-email {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: var(--bgColorSecondary);
+  padding: 15px 0px 15px 16px;
+  width: 358px;
+  color: var(--colorHero);
+}
 .footer-button-email {
   background-color: var(--btnBgColor);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -617,16 +626,8 @@ ul {
 
   margin-bottom: 12px;
 }
-.form-fieldset {
-  display: flex;
-  flex-direction: column;
-
-  margin: 0px;
-  padding: 0px;
-
-  border-color: transparent;
-}
 .form-label {
+  display: block;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
@@ -659,8 +660,14 @@ ul {
 .form-input:focus-visible + .input-icon {
   fill: var(--colorSecondary);
 }
+.comment-wrapper {
+  display: flex;
+}
 #form-comment {
+  height: 120px;
   padding: 12px 16px;
+  width: 100%;
+
   resize: none;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
@@ -732,6 +739,7 @@ ul {
 .form-button {
   background: var(--btnBgColor);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: none;
   border-radius: 4px;
   border-color: transparent;
 
@@ -750,7 +758,7 @@ ul {
 
   color: var(--btnColorPrimary);
 
-  transform: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form-button:hover,
 .form-button:focus {
