@@ -710,11 +710,10 @@ ul {
   /* transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 .form-checkbox:focus + .checkbox-label > .checkbox-icon {
-  outline: 2px solid #2196f3;
+  border: 2px solid #2196f3;
 }
 .form-checkbox:checked + .checkbox-label .checkbox-icon {
   border: none;
-  outline: none;
   fill: var(--colorSecondary);
 }
 .checkbox-terms {
